@@ -1,3 +1,4 @@
+
 package main;
 
 import java.util.ArrayList;
@@ -134,6 +135,8 @@ public class AgenciaBancaria {
         }
 
         operacoes();
+
+    }
 
         public static void transferir() {
             System.out.println("Número da conta que vai enviar a transferência: ");

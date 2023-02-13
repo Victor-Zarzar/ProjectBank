@@ -13,6 +13,8 @@ public class Pessoa {
     private String email;
     private Date accountCreationDate;
 
+    public Pessoa() { }
+
     public Pessoa(String name, String cpf, String email) {
         this.numeroPessoa = Pessoa.counter;
         this.name = name;
@@ -34,9 +36,12 @@ public class Pessoa {
         this.name = name;
     }
 
-    public void setCpf(String cpf) {
+    public String getCpf() {
         this.cpf;
     }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
 
     public String getEmail() {
         return email;

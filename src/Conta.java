@@ -4,7 +4,7 @@ import utils.Utils;
 
 public class Conta {
    
-    private static init accountCounter = 1;
+    private static int accountCounter = 1;
 
     private int numeroConta;
     private Pessoa pessoa;
